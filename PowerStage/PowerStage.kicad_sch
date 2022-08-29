@@ -1576,7 +1576,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 152.4 62.23 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 28e107ee-143f-40c0-b046-11adab8f9079)
-    (property "Reference" "TP4" (id 0) (at 151.13 63.5 90)
+    (property "Reference" "PA4" (id 0) (at 151.13 63.5 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PA4" (id 1) (at 157.48 62.23 90)
@@ -1675,7 +1675,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 152.4 69.85 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4ec69c2d-93b8-4d4a-866e-f1862390fc5c)
-    (property "Reference" "TP5" (id 0) (at 151.13 71.12 90)
+    (property "Reference" "PA7" (id 0) (at 151.13 71.12 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PA7" (id 1) (at 157.48 69.85 90)
@@ -1765,7 +1765,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 113.03 54.61 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6eb58fd5-4c1b-4b1f-8d9d-621e1cf03e8d)
-    (property "Reference" "TP2" (id 0) (at 115.57 53.34 90))
+    (property "Reference" "PB1" (id 0) (at 115.57 53.34 90))
     (property "Value" "PB1" (id 1) (at 106.68 54.61 90))
     (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (id 2) (at 113.03 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2031,7 +2031,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 152.4 59.69 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d7f44e46-534a-4682-b620-a566a94ae2f2)
-    (property "Reference" "TP3" (id 0) (at 151.13 60.96 90)
+    (property "Reference" "PA3" (id 0) (at 151.13 60.96 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PA3" (id 1) (at 157.48 59.69 90)
@@ -2104,7 +2104,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 113.03 52.07 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e9d55dfa-b32b-49a7-a5a4-10feb68007c5)
-    (property "Reference" "TP1" (id 0) (at 115.57 50.8 90))
+    (property "Reference" "PB0" (id 0) (at 115.57 50.8 90))
     (property "Value" "PB0" (id 1) (at 106.68 52.07 90))
     (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (id 2) (at 113.03 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2196,6 +2196,21 @@
     (path "/5808772b-8905-4e9a-8011-27b1c9136197"
       (reference "K4") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
+    (path "/d7f44e46-534a-4682-b620-a566a94ae2f2"
+      (reference "PA3") (unit 1) (value "PA3") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/28e107ee-143f-40c0-b046-11adab8f9079"
+      (reference "PA4") (unit 1) (value "PA4") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/4ec69c2d-93b8-4d4a-866e-f1862390fc5c"
+      (reference "PA7") (unit 1) (value "PA7") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/e9d55dfa-b32b-49a7-a5a4-10feb68007c5"
+      (reference "PB0") (unit 1) (value "PB0") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/6eb58fd5-4c1b-4b1f-8d9d-621e1cf03e8d"
+      (reference "PB1") (unit 1) (value "PB1") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
     (path "/e621dda4-652f-463a-980f-9351f5fcbc20"
       (reference "Q1") (unit 1) (value "Q_PMOS_GSD") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
@@ -2228,21 +2243,6 @@
     )
     (path "/7dfed57a-5b60-422f-a741-93ee94a95041"
       (reference "R10") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/e9d55dfa-b32b-49a7-a5a4-10feb68007c5"
-      (reference "TP1") (unit 1) (value "PB0") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/6eb58fd5-4c1b-4b1f-8d9d-621e1cf03e8d"
-      (reference "TP2") (unit 1) (value "PB1") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/d7f44e46-534a-4682-b620-a566a94ae2f2"
-      (reference "TP3") (unit 1) (value "PA3") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/28e107ee-143f-40c0-b046-11adab8f9079"
-      (reference "TP4") (unit 1) (value "PA4") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/4ec69c2d-93b8-4d4a-866e-f1862390fc5c"
-      (reference "TP5") (unit 1) (value "PA7") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
   )
 )
